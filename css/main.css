@@ -366,7 +366,7 @@ h6 {
         margin: 0 auto;
         transform: rotate(90deg);
         position: absolute;
-        top: 35%;
+        top: 32%;
         right: 20px;
     }
     .clock {
@@ -384,6 +384,6 @@ h6 {
 }
 @media only screen and (max-device-width: 640px) {
     body {
-        zoom: 75%;
+        zoom: 71%;
     }
 }
