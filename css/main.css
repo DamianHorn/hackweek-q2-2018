@@ -357,10 +357,11 @@ h6 {
     margin-top: 60px;
 }
 
+
 @media only screen and (min-device-width: 10px) 
                    and (max-device-width: 640px) 
                    and (orientation: portrait){
-                    
+
     .logo {
        width: 50%;
         margin: 0 auto;
@@ -382,9 +383,8 @@ h6 {
     }
     
 }
-@media only screen and (min-device-width: 10px) 
-                   and (max-device-width: 640px){
-    body {
-        zoom:90%;
-    }
+body {
+    zoom: 80%;
+}
+    
 }
