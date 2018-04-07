@@ -358,8 +358,7 @@ h6 {
 }
 
 
-@media only screen and (min-device-width: 10px) 
-                   and (max-device-width: 640px) 
+@media only screen and (max-device-width: 640px) 
                    and (orientation: portrait){
 
     .logo {
@@ -367,7 +366,7 @@ h6 {
         margin: 0 auto;
         transform: rotate(90deg);
         position: absolute;
-        top: 40px;
+        top: 35%;
         right: 20px;
     }
     .clock {
@@ -379,12 +378,12 @@ h6 {
         margin-left: 0;
         margin-top: 0;
         transform: rotate(90deg);
-        top: 280px;
+        top: 60%;
     }
     
 }
-body {
-    zoom: 80%;
-}
-    
+@media only screen and (max-device-width: 640px) {
+    body {
+        zoom: 75%;
+    }
 }
